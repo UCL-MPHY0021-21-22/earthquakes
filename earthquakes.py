@@ -3,7 +3,7 @@
 # However, we will use a more powerful and simpler library called requests.
 # This is external library that you may need to install first.
 import requests
-
+import json
 
 def get_data():
     # With requests, we can ask the web service for the data.
@@ -31,31 +31,38 @@ def get_data():
 
     # We need to interpret the text to get values that we can work with.
     # What format is the text in? How can we load the values?
-    return ...
+    return json.loads(text)
 
 def count_earthquakes(data):
     """Get the total number of earthquakes in the response."""
-    return ...
+    return data.get("metadata").get("count")
 
 
 def get_magnitude(earthquake):
     """Retrive the magnitude of an earthquake item."""
-    return ...
+    return [dict.get("properties").get("mag") for dict in data.get("features")]
 
 
 def get_location(earthquake):
     """Retrieve the latitude and longitude of an earthquake item."""
     # There are three coordinates, but we don't care about the third (altitude)
-    return ...
+    list_of_coords = [dict.get("geometry").get("coordinates") for dict in data.get("features")]
+    lat_lon_only = [coords[0:2] for coords in list_of_coords]
+    return lat_lon_only
 
 
 def get_maximum(data):
     """Get the magnitude and location of the strongest earthquake in the data."""
-    ...
+    #this builds an element that has magnitude, lat, lon, altitude. I used [0:3] to discard altitude. I am also using reverse Sorted to sort by the first element only (which is mag) so that I can extract lat lat afterwards
+    mag_lat_lon = sorted([(([dict.get("properties").get("mag")]+dict.get("geometry").get("coordinates"))[0:3]) for dict in data.get("features")], reverse = True)
+    max_magnitude = mag_lat_lon[0][0]
+    max_location = mag_lat_lon[0][1:3]
+    return max_magnitude, max_location
 
 
 # With all the above functions defined, we can now call them and get the result
 data = get_data()
+
 print(f"Loaded {count_earthquakes(data)}")
 max_magnitude, max_location = get_maximum(data)
 print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
