@@ -3,7 +3,7 @@
 # However, we will use a more powerful and simpler library called requests.
 # This is external library that you may need to install first.
 import requests
-
+import json
 
 def get_data():
     # With requests, we can ask the web service for the data.
@@ -24,6 +24,9 @@ def get_data():
     # The response we get back is an object with several fields.
     # The actual contents we care about are in its text field:
     text = response.text
+    print(text)
+    #with open('testOutput.json','w+') as target:
+    #    target.write(text)
     # To understand the structure of this text, you may want to save it
     # to a file and open it in VS Code or a browser.
     # See the README file for more information.
