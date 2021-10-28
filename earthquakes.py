@@ -4,21 +4,36 @@ import json
 # However, we will use a more powerful and simpler library called requests.
 # This is external library that you may need to install first.
 import requests
+import matplotlib.pyplot as plt
+from datetime import date
+import numpy as np
+
+def get_year(earthquake):
+    """Extract the year in which an earthquake happened."""
+    timestamp = earthquake['properties']['time']
+    # The time is given in a strange-looking but commonly-used format.
+    # To understand it, we can look at the documentation of the source data:
+    # https://earthquake.usgs.gov/data/comcat/index.php#time
+    # Fortunately, Python provides a way of interpreting this timestamp:
+    # (Question for discussion: Why do we divide by 1000?)
+    year = date.fromtimestamp(timestamp/1000).year
+    return year
 
 
-def get_data():
+
+def get_data(start_time,end_time):
     # With requests, we can ask the web service for the data.
     # Can you understand the parameters we are passing here?
     response = requests.get(
         "http://earthquake.usgs.gov/fdsnws/event/1/query.geojson",
         params={
-            'starttime': "2000-01-01",
+            'starttime': start_time,
             "maxlatitude": "58.723",
             "minlatitude": "50.008",
             "maxlongitude": "1.67",
             "minlongitude": "-9.756",
             "minmagnitude": "1",
-            "endtime": "2018-10-11",
+            "endtime": end_time,
             "orderby": "time-asc"}
     )
 
@@ -73,9 +88,26 @@ def get_maximum(data):
     # )
     # return biggest_earthquake["mag"], biggest_earthquake["location"]
 
+n_earthquakes = np.zeros(21)
+n-average = np.zeros(21)
+
+for i in range(2000,2021):
+    start_time = str(i) + '-01-01'
+    end_time = str(i+1) + '-01-01'
+    data = get_data(start_time,end_time)
+    n_earthquakes[i-2000] = count_earthquakes(data)
+    for j in range(count_earthquakes(data)):
+
+
+
+
+    
+       
+
+plt.plot(np.arange(2000,2021,1),n_earthquakes)
+plt.xlabel('Year')
+plt.ylabel('Number of earthquakes')
+plt.savefig('num_earthquakes_year')
+
 
 # With all the above functions defined, we can now call them and get the result
-data = get_data()
-print(f"Loaded {count_earthquakes(data)}")
-max_magnitude, max_location = get_maximum(data)
-print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
