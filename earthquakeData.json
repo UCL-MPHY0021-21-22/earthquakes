@@ -1,0 +1,4821 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1635417897000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?starttime=2000-01-01&maxlatitude=58.723&minlatitude=50.008&maxlongitude=1.67&minlongitude=-9.756&minmagnitude=1&endtime=2018-10-11&orderby=time-asc",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.12.2",
+        "count": 120
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "12 km NNW of Penrith, United Kingdom",
+                "time": 956553055700,
+                "updated": 1415322596133,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp0009rst",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp0009rst&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p0009rst",
+                "ids": ",usp0009rst,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 12 km NNW of Penrith, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.81,
+                    54.77,
+                    14
+                ]
+            },
+            "id": "usp0009rst"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4,
+                "place": "1 km WSW of Warwick, United Kingdom",
+                "time": 969683025790,
+                "updated": 1415322666913,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000a0pm",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000a0pm&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 246,
+                "net": "us",
+                "code": "p000a0pm",
+                "ids": ",usp000a0pm,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 55,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 4.0 - 1 km WSW of Warwick, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.61,
+                    52.28,
+                    13.1
+                ]
+            },
+            "id": "usp000a0pm"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4,
+                "place": "38 km NNE of Cromer, United Kingdom",
+                "time": 977442788510,
+                "updated": 1415322705662,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000a6hd",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000a6hd&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 246,
+                "net": "us",
+                "code": "p000a6hd",
+                "ids": ",usp000a6hd,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 27,
+                "dmin": null,
+                "rms": 1.12,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 4.0 - 38 km NNE of Cromer, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.564,
+                    53.236,
+                    10
+                ]
+            },
+            "id": "usp000a6hd"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.3,
+                "place": "171 km ENE of Peterhead, United Kingdom",
+                "time": 984608438660,
+                "updated": 1415322741153,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000abdr",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000abdr&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 168,
+                "net": "us",
+                "code": "p000abdr",
+                "ids": ",usp000abdr,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 36,
+                "dmin": null,
+                "rms": 1.44,
+                "gap": null,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 3.3 - 171 km ENE of Peterhead, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.872,
+                    58.097,
+                    10
+                ]
+            },
+            "id": "usp000abdr"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "8 km W of Marlborough, United Kingdom",
+                "time": 984879824720,
+                "updated": 1415322742102,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000abnc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000abnc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "p000abnc",
+                "ids": ",usp000abnc,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": 0.57,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 8 km W of Marlborough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.845,
+                    51.432,
+                    10
+                ]
+            },
+            "id": "usp000abnc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "3 km W of Locharbriggs, United Kingdom",
+                "time": 989742419300,
+                "updated": 1415322767519,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000aevu",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000aevu&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "p000aevu",
+                "ids": ",usp000aevu,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 22,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 3 km W of Locharbriggs, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.639,
+                    55.102,
+                    12.3
+                ]
+            },
+            "id": "usp000aevu"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4,
+                "place": "20 km NNW of Flexbury, United Kingdom",
+                "time": 991352577300,
+                "updated": 1415322772628,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000afuv",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000afuv&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 246,
+                "net": "us",
+                "code": "p000afuv",
+                "ids": ",usp000afuv,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 59,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 4.0 - 20 km NNW of Flexbury, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.684,
+                    50.995,
+                    28.7
+                ]
+            },
+            "id": "usp000afuv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "3 km SSW of Clacton-on-Sea, United Kingdom",
+                "time": 993662993990,
+                "updated": 1415322788547,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ahkb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ahkb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000ahkb",
+                "ids": ",usp000ahkb,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": null,
+                "rms": 0.99,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 3 km SSW of Clacton-on-Sea, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.144,
+                    51.76,
+                    10
+                ]
+            },
+            "id": "usp000ahkb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "3 km NNW of Sturry, United Kingdom",
+                "time": 993668185470,
+                "updated": 1415322788557,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ahkf",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ahkf&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000ahkf",
+                "ids": ",usp000ahkf,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": 0.75,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 3 km NNW of Sturry, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.094,
+                    51.332,
+                    10
+                ]
+            },
+            "id": "usp000ahkf"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "2 km SSE of Caerphilly, United Kingdom",
+                "time": 1002682343130,
+                "updated": 1415322838210,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000aqku",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000aqku&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000aqku",
+                "ids": ",usp000aqku,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 38,
+                "dmin": null,
+                "rms": 1.04,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 2 km SSE of Caerphilly, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.205,
+                    51.552,
+                    10
+                ]
+            },
+            "id": "usp000aqku"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "1 km SE of Deri, United Kingdom",
+                "time": 1003377013600,
+                "updated": 1415322840661,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ar5p",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ar5p&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000ar5p",
+                "ids": ",usp000ar5p,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 34,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 1 km SE of Deri, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.25,
+                    51.7,
+                    7.9
+                ]
+            },
+            "id": "usp000ar5p"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.2,
+                "place": "5 km E of Long Clawson, United Kingdom",
+                "time": 1004286325100,
+                "updated": 1415322844421,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000artg",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000artg&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 271,
+                "net": "us",
+                "code": "p000artg",
+                "ids": ",usp000artg,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 152,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.2 - 5 km E of Long Clawson, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.856,
+                    52.846,
+                    11.6
+                ]
+            },
+            "id": "usp000artg"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "1 km S of Abercarn, United Kingdom",
+                "time": 1012177812770,
+                "updated": 1415322885742,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000axaa",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000axaa&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000axaa",
+                "ids": ",usp000axaa,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 17,
+                "dmin": null,
+                "rms": 0.78,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 1 km S of Abercarn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.14,
+                    51.63,
+                    10
+                ]
+            },
+            "id": "usp000axaa"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.4,
+                "place": "25 km NNE of Sheringham, United Kingdom",
+                "time": 1012410365310,
+                "updated": 1415322886960,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000axff",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000axff&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 178,
+                "net": "us",
+                "code": "p000axff",
+                "ids": ",usp000axff,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 34,
+                "dmin": null,
+                "rms": 0.91,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.4 - 25 km NNE of Sheringham, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.288,
+                    53.168,
+                    10
+                ]
+            },
+            "id": "usp000axff"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "1 km SSE of Deri, United Kingdom",
+                "time": 1013541196400,
+                "updated": 1415322894547,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000aybb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000aybb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000aybb",
+                "ids": ",usp000aybb,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 32,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 1 km SSE of Deri, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.255,
+                    51.7,
+                    8.3
+                ]
+            },
+            "id": "usp000aybb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.4,
+                "place": "3 km N of Marshfield, United Kingdom",
+                "time": 1024594001800,
+                "updated": 1415322952043,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000b6kc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000b6kc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 178,
+                "net": "us",
+                "code": "p000b6kc",
+                "ids": ",usp000b6kc,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 28,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.4 - 3 km N of Marshfield, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.081,
+                    51.567,
+                    14.3
+                ]
+            },
+            "id": "usp000b6kc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "40 km NNW of \u00c9tretat, France",
+                "time": 1030405284900,
+                "updated": 1415322980684,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000baq2",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000baq2&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000baq2",
+                "ids": ",usp000baq2,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 40 km NNW of \u00c9tretat, France"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.009,
+                    50.048,
+                    4
+                ]
+            },
+            "id": "usp000baq2"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "16 km N of Isle Of Mull, United Kingdom",
+                "time": 1031136485700,
+                "updated": 1415322986488,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bb7y",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bb7y&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "us",
+                "code": "p000bb7y",
+                "ids": ",usp000bb7y,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 16 km N of Isle Of Mull, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.749,
+                    56.596,
+                    7.6
+                ]
+            },
+            "id": "usp000bb7y"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.1,
+                "place": "4 km SSE of Glyn-neath, United Kingdom",
+                "time": 1032326410300,
+                "updated": 1415322992506,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bcjt",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bcjt&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 68,
+                "net": "us",
+                "code": "p000bcjt",
+                "ids": ",usp000bcjt,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 11,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.1 - 4 km SSE of Glyn-neath, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.588,
+                    51.713,
+                    1.5
+                ]
+            },
+            "id": "usp000bcjt"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.8,
+                "place": "2 km ESE of Wombourn, United Kingdom",
+                "time": 1032738794600,
+                "updated": 1600455819229,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bcxg",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bcxg&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": 6.161,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 354,
+                "net": "us",
+                "code": "p000bcxg",
+                "ids": ",usp000bcxg,atlas20020922235314,",
+                "sources": ",us,atlas,",
+                "types": ",impact-text,origin,phase-data,shakemap,trump-shakemap,",
+                "nst": 268,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.8 - 2 km ESE of Wombourn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15,
+                    52.52,
+                    9.4
+                ]
+            },
+            "id": "usp000bcxg"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.2,
+                "place": "3 km ESE of Wombourn, United Kingdom",
+                "time": 1032751935900,
+                "updated": 1415322994003,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bcxx",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bcxx&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 158,
+                "net": "us",
+                "code": "p000bcxx",
+                "ids": ",usp000bcxx,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 35,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.2 - 3 km ESE of Wombourn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.136,
+                    52.522,
+                    9.3
+                ]
+            },
+            "id": "usp000bcxx"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.2,
+                "place": "3 km NE of Kingswinford, United Kingdom",
+                "time": 1032859759000,
+                "updated": 1415322994328,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bd0s",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bd0s&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 22,
+                "net": "us",
+                "code": "p000bd0s",
+                "ids": ",usp000bd0s,",
+                "sources": ",us,",
+                "types": ",origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 3 km NE of Kingswinford, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.138,
+                    52.521,
+                    7.9
+                ]
+            },
+            "id": "usp000bd0s"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.7,
+                "place": "0 km N of Longdendale, United Kingdom",
+                "time": 1035186315800,
+                "updated": 1415323007399,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000beyp",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000beyp&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 211,
+                "net": "us",
+                "code": "p000beyp",
+                "ids": ",usp000beyp,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.7 - 0 km N of Longdendale, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2,
+                    53.475,
+                    5
+                ]
+            },
+            "id": "usp000beyp"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.3,
+                "place": "1 km ESE of Manchester, United Kingdom",
+                "time": 1035200554900,
+                "updated": 1415323007416,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000beyx",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000beyx&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 284,
+                "net": "us",
+                "code": "p000beyx",
+                "ids": ",usp000beyx,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 46,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 4.3 - 1 km ESE of Manchester, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.219,
+                    53.478,
+                    5
+                ]
+            },
+            "id": "usp000beyx"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "1 km WNW of Longsight, United Kingdom",
+                "time": 1035257977600,
+                "updated": 1415323007539,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf0a",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf0a&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "p000bf0a",
+                "ids": ",usp000bf0a,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 1 km WNW of Longsight, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.219,
+                    53.463,
+                    5
+                ]
+            },
+            "id": "usp000bf0a"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "0 km S of Droylsden, United Kingdom",
+                "time": 1035289688400,
+                "updated": 1415323007625,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf0s",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf0s&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000bf0s",
+                "ids": ",usp000bf0s,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 0 km S of Droylsden, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.146,
+                    53.473,
+                    4.2
+                ]
+            },
+            "id": "usp000bf0s"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.3,
+                "place": "0 km WSW of Droylsden, United Kingdom",
+                "time": 1035338008790,
+                "updated": 1415323007751,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf1x",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf1x&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 168,
+                "net": "us",
+                "code": "p000bf1x",
+                "ids": ",usp000bf1x,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 14,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.3 - 0 km WSW of Droylsden, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.157,
+                    53.477,
+                    5
+                ]
+            },
+            "id": "usp000bf1x"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.8,
+                "place": "2 km WNW of Droylsden, United Kingdom",
+                "time": 1035447894700,
+                "updated": 1415323008575,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf7c",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf7c&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 222,
+                "net": "us",
+                "code": "p000bf7c",
+                "ids": ",usp000bf7c,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 23,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.8 - 2 km WNW of Droylsden, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.179,
+                    53.485,
+                    3.7
+                ]
+            },
+            "id": "usp000bf7c"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "2 km N of Longsight, United Kingdom",
+                "time": 1035474404200,
+                "updated": 1415323008696,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf8p",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf8p&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "us",
+                "code": "p000bf8p",
+                "ids": ",usp000bf8p,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 2 km N of Longsight, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.197,
+                    53.482,
+                    5
+                ]
+            },
+            "id": "usp000bf8p"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "2 km E of Manchester, United Kingdom",
+                "time": 1035505167290,
+                "updated": 1415323008830,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf9v",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf9v&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000bf9v",
+                "ids": ",usp000bf9v,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 15,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 2 km E of Manchester, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.204,
+                    53.481,
+                    5
+                ]
+            },
+            "id": "usp000bf9v"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "1 km ENE of Manchester, United Kingdom",
+                "time": 1035505239700,
+                "updated": 1415323008832,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bf9w",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bf9w&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000bf9w",
+                "ids": ",usp000bf9w,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 1 km ENE of Manchester, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.213,
+                    53.488,
+                    5
+                ]
+            },
+            "id": "usp000bf9w"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km NNE of Longsight, United Kingdom",
+                "time": 1035566688290,
+                "updated": 1415323009056,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bfbr",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bfbr&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000bfbr",
+                "ids": ",usp000bfbr,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km NNE of Longsight, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.188,
+                    53.477,
+                    5
+                ]
+            },
+            "id": "usp000bfbr"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.1,
+                "place": "2 km N of Longsight, United Kingdom",
+                "time": 1035866572000,
+                "updated": 1415323010483,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bfjw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bfjw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 148,
+                "net": "us",
+                "code": "p000bfjw",
+                "ids": ",usp000bfjw,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 10,
+                "dmin": null,
+                "rms": null,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.1 - 2 km N of Longsight, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.198,
+                    53.481,
+                    5
+                ]
+            },
+            "id": "usp000bfjw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "17 km NW of Sangatte, France",
+                "time": 1051748450100,
+                "updated": 1415323109903,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000bwbb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000bwbb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "us",
+                "code": "p000bwbb",
+                "ids": ",usp000bwbb,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 11,
+                "dmin": null,
+                "rms": null,
+                "gap": 242.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 17 km NW of Sangatte, France"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.582,
+                    51.055,
+                    10
+                ]
+            },
+            "id": "usp000bwbb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "12 km NNW of Balfron, United Kingdom",
+                "time": 1056091459700,
+                "updated": 1415323137863,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000c0ah",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000c0ah&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000c0ah",
+                "ids": ",usp000c0ah,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 287.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 12 km NNW of Balfron, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.416,
+                    56.169,
+                    5
+                ]
+            },
+            "id": "usp000c0ah"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "14 km NNW of Balfron, United Kingdom",
+                "time": 1056092004600,
+                "updated": 1415323137869,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000c0ak",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000c0ak&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "us",
+                "code": "p000c0ak",
+                "ids": ",usp000c0ak,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 287.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 14 km NNW of Balfron, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.439,
+                    56.181,
+                    5.4
+                ]
+            },
+            "id": "usp000c0ak"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "12 km NNW of Balfron, United Kingdom",
+                "time": 1056099807390,
+                "updated": 1415323137891,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000c0av",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000c0av&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000c0av",
+                "ids": ",usp000c0av,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 287.3,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 12 km NNW of Balfron, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.427,
+                    56.167,
+                    4.3
+                ]
+            },
+            "id": "usp000c0av"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.2,
+                "place": "1 km WSW of Finningley, United Kingdom",
+                "time": 1061322378600,
+                "updated": 1415323173139,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000c5cm",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000c5cm&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 158,
+                "net": "us",
+                "code": "p000c5cm",
+                "ids": ",usp000c5cm,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 31,
+                "dmin": null,
+                "rms": null,
+                "gap": 164.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.2 - 1 km WSW of Finningley, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.013,
+                    53.481,
+                    13.2
+                ]
+            },
+            "id": "usp000c5cm"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.3,
+                "place": "2 km E of North Petherton, United Kingdom",
+                "time": 1075373761600,
+                "updated": 1415323270187,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000cjxx",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000cjxx&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 168,
+                "net": "us",
+                "code": "p000cjxx",
+                "ids": ",usp000cjxx,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": null,
+                "gap": 132.6,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.3 - 2 km E of North Petherton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.98,
+                    51.089,
+                    6.5
+                ]
+            },
+            "id": "usp000cjxx"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.6,
+                "place": "2 km E of North Petherton, United Kingdom",
+                "time": 1075373813000,
+                "updated": 1415323270190,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000cjxy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000cjxy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 199,
+                "net": "us",
+                "code": "p000cjxy",
+                "ids": ",usp000cjxy,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 34,
+                "dmin": null,
+                "rms": null,
+                "gap": 128.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.6 - 2 km E of North Petherton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.98,
+                    51.089,
+                    6.5
+                ]
+            },
+            "id": "usp000cjxy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.7,
+                "place": "2 km E of North Petherton, United Kingdom",
+                "time": 1075407815100,
+                "updated": 1415323270269,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000cjyu",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000cjyu&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 211,
+                "net": "us",
+                "code": "p000cjyu",
+                "ids": ",usp000cjyu,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 40,
+                "dmin": null,
+                "rms": null,
+                "gap": 128.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.7 - 2 km E of North Petherton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.98,
+                    51.089,
+                    6.5
+                ]
+            },
+            "id": "usp000cjyu"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.4,
+                "place": "0 km SW of Diggle, United Kingdom",
+                "time": 1078031285200,
+                "updated": 1415323292202,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000cnq3",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000cnq3&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 178,
+                "net": "us",
+                "code": "p000cnq3",
+                "ids": ",usp000cnq3,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 48,
+                "dmin": null,
+                "rms": null,
+                "gap": 96,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.4 - 0 km SW of Diggle, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.999,
+                    53.566,
+                    12.4
+                ]
+            },
+            "id": "usp000cnq3"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "167 km ENE of Peterhead, United Kingdom",
+                "time": 1082584411250,
+                "updated": 1415323323968,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ct2t",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ct2t&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000ct2t",
+                "ids": ",usp000ct2t,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 14,
+                "dmin": null,
+                "rms": 0.52,
+                "gap": 170.8,
+                "magType": "md",
+                "type": "earthquake",
+                "title": "M 2.7 - 167 km ENE of Peterhead, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.765,
+                    58.146,
+                    10
+                ]
+            },
+            "id": "usp000ct2t"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "5 km WNW of Lund, United Kingdom",
+                "time": 1089065851000,
+                "updated": 1415323371252,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000czmn",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000czmn&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000czmn",
+                "ids": ",usp000czmn,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 17,
+                "dmin": null,
+                "rms": null,
+                "gap": 183.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 5 km WNW of Lund, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.602,
+                    53.936,
+                    9.5
+                ]
+            },
+            "id": "usp000czmn"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.8,
+                "place": "2 km SW of Conwy, United Kingdom",
+                "time": 1108406640800,
+                "updated": 1415323499654,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000dg4z",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000dg4z&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 222,
+                "net": "us",
+                "code": "p000dg4z",
+                "ids": ",usp000dg4z,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 51,
+                "dmin": null,
+                "rms": null,
+                "gap": 94.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.8 - 2 km SW of Conwy, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.853,
+                    53.265,
+                    4.9
+                ]
+            },
+            "id": "usp000dg4z"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km WSW of Leek, United Kingdom",
+                "time": 1118193681160,
+                "updated": 1415323569348,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000dsg6",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000dsg6&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000dsg6",
+                "ids": ",usp000dsg6,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": 0.56,
+                "gap": 146.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km WSW of Leek, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.055,
+                    53.092,
+                    5
+                ]
+            },
+            "id": "usp000dsg6"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "3 km WSW of Southwater, United Kingdom",
+                "time": 1121538549200,
+                "updated": 1415323590312,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000dvbc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000dvbc&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "p000dvbc",
+                "ids": ",usp000dvbc,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 18,
+                "dmin": null,
+                "rms": null,
+                "gap": 247.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 3 km WSW of Southwater, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.392,
+                    51.008,
+                    5
+                ]
+            },
+            "id": "usp000dvbc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "7 km WNW of Fort William, United Kingdom",
+                "time": 1134256889900,
+                "updated": 1415323672530,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e5y4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e5y4&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000e5y4",
+                "ids": ",usp000e5y4,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 13,
+                "dmin": null,
+                "rms": null,
+                "gap": 112.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 7 km WNW of Fort William, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.224,
+                    56.839,
+                    7.5
+                ]
+            },
+            "id": "usp000e5y4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.4,
+                "place": "3 km S of Redbourn, United Kingdom",
+                "time": 1134280891200,
+                "updated": 1415323672638,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e5ym",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e5ym&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 89,
+                "net": "us",
+                "code": "p000e5ym",
+                "ids": ",usp000e5ym,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 21,
+                "dmin": null,
+                "rms": null,
+                "gap": 70.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.4 - 3 km S of Redbourn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.395,
+                    51.772,
+                    0
+                ]
+            },
+            "id": "usp000e5ym"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.2,
+                "place": "27 km E of Wicklow, Ireland",
+                "time": 1134531025500,
+                "updated": 1415323673479,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e63y",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e63y&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 158,
+                "net": "us",
+                "code": "p000e63y",
+                "ids": ",usp000e63y,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 48,
+                "dmin": null,
+                "rms": null,
+                "gap": 89.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.2 - 27 km E of Wicklow, Ireland"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.641,
+                    53.001,
+                    10
+                ]
+            },
+            "id": "usp000e63y"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "24 km ENE of Tobermory, United Kingdom",
+                "time": 1135308351100,
+                "updated": 1415323675863,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e6ns",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e6ns&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000e6ns",
+                "ids": ",usp000e6ns,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 12,
+                "dmin": null,
+                "rms": null,
+                "gap": 136.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - 24 km ENE of Tobermory, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.685,
+                    56.68,
+                    6.7
+                ]
+            },
+            "id": "usp000e6ns"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.4,
+                "place": "25 km NNE of Isle Of Mull, United Kingdom",
+                "time": 1135313901600,
+                "updated": 1415323675871,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e6nw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e6nw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 89,
+                "net": "us",
+                "code": "p000e6nw",
+                "ids": ",usp000e6nw,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 11,
+                "dmin": null,
+                "rms": null,
+                "gap": 135.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.4 - 25 km NNE of Isle Of Mull, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.662,
+                    56.668,
+                    7.5
+                ]
+            },
+            "id": "usp000e6nw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "5 km SSW of Auchterarder, United Kingdom",
+                "time": 1135831229210,
+                "updated": 1415323677960,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e74q",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e74q&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "us",
+                "code": "p000e74q",
+                "ids": ",usp000e74q,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 6,
+                "dmin": null,
+                "rms": 0.06,
+                "gap": 124.9,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 5 km SSW of Auchterarder, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.736,
+                    56.245,
+                    10.8
+                ]
+            },
+            "id": "usp000e74q"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "3 km WSW of Auchterarder, United Kingdom",
+                "time": 1136068805700,
+                "updated": 1415323678586,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e7ag",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e7ag&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000e7ag",
+                "ids": ",usp000e7ag,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 11,
+                "dmin": null,
+                "rms": null,
+                "gap": 135.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 3 km WSW of Auchterarder, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.761,
+                    56.277,
+                    5.9
+                ]
+            },
+            "id": "usp000e7ag"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km SE of Kingsclere, United Kingdom",
+                "time": 1137092632000,
+                "updated": 1415323685963,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000e83s",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000e83s&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000e83s",
+                "ids": ",usp000e83s,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 27,
+                "dmin": null,
+                "rms": null,
+                "gap": 117.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km SE of Kingsclere, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.22,
+                    51.31,
+                    15
+                ]
+            },
+            "id": "usp000e83s"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.9,
+                "place": "17 km SSW of Fort William, United Kingdom",
+                "time": 1145497550700,
+                "updated": 1415323732307,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000eeyt",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000eeyt&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 56,
+                "net": "us",
+                "code": "p000eeyt",
+                "ids": ",usp000eeyt,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 15,
+                "dmin": null,
+                "rms": null,
+                "gap": 117.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.9 - 17 km SSW of Fort William, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.233,
+                    56.676,
+                    7.5
+                ]
+            },
+            "id": "usp000eeyt"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "35 km ENE of Portree, United Kingdom",
+                "time": 1149769428100,
+                "updated": 1415323760381,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ejy2",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ejy2&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "p000ejy2",
+                "ids": ",usp000ejy2,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 22,
+                "dmin": null,
+                "rms": null,
+                "gap": 74.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 35 km ENE of Portree, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.642,
+                    57.531,
+                    8.3
+                ]
+            },
+            "id": "usp000ejy2"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "1 km E of North Petherton, United Kingdom",
+                "time": 1155573645460,
+                "updated": 1415323797957,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000eqxw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000eqxw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000eqxw",
+                "ids": ",usp000eqxw,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 9,
+                "dmin": null,
+                "rms": 0.4,
+                "gap": 73.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 1 km E of North Petherton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.988,
+                    51.094,
+                    10
+                ]
+            },
+            "id": "usp000eqxw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "4 km SSW of Dorstone, United Kingdom",
+                "time": 1159299275400,
+                "updated": 1415323816958,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000etvr",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000etvr&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000etvr",
+                "ids": ",usp000etvr,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 32,
+                "dmin": null,
+                "rms": null,
+                "gap": 72.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - 4 km SSW of Dorstone, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.032,
+                    52.031,
+                    10.8
+                ]
+            },
+            "id": "usp000etvr"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "15 km SW of Fort William, United Kingdom",
+                "time": 1160713263800,
+                "updated": 1415323833593,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ev3e",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ev3e&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "us",
+                "code": "p000ev3e",
+                "ids": ",usp000ev3e,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 5,
+                "dmin": null,
+                "rms": null,
+                "gap": 205.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 15 km SW of Fort William, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.251,
+                    56.705,
+                    6.8
+                ]
+            },
+            "id": "usp000ev3e"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "4 km NNE of Tenbury Wells, United Kingdom",
+                "time": 1162766140800,
+                "updated": 1415323845742,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ewq4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ewq4&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000ewq4",
+                "ids": ",usp000ewq4,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 32,
+                "dmin": null,
+                "rms": null,
+                "gap": 93.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - 4 km NNE of Tenbury Wells, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.569,
+                    52.352,
+                    10
+                ]
+            },
+            "id": "usp000ewq4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "1 km NNE of Polperro, United Kingdom",
+                "time": 1166494855000,
+                "updated": 1415323869868,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f0hj",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f0hj&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "us",
+                "code": "p000f0hj",
+                "ids": ",usp000f0hj,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": null,
+                "gap": 200.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 1 km NNE of Polperro, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.512,
+                    50.346,
+                    8
+                ]
+            },
+            "id": "usp000f0hj"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.6,
+                "place": "2 km NW of Dumfries, United Kingdom",
+                "time": 1167129604400,
+                "updated": 1415323871643,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f10w",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f10w&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 199,
+                "net": "us",
+                "code": "p000f10w",
+                "ids": ",usp000f10w,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 87,
+                "dmin": null,
+                "rms": null,
+                "gap": 50.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.6 - 2 km NW of Dumfries, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.634,
+                    55.085,
+                    7.7
+                ]
+            },
+            "id": "usp000f10w"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.6,
+                "place": "58 km E of Easington, United Kingdom",
+                "time": 1167470143000,
+                "updated": 1415323873175,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f1ag",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f1ag&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 199,
+                "net": "us",
+                "code": "p000f1ag",
+                "ids": ",usp000f1ag,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 34,
+                "dmin": null,
+                "rms": null,
+                "gap": 195.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.6 - 58 km E of Easington, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.998,
+                    53.666,
+                    11
+                ]
+            },
+            "id": "usp000f1ag"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "33 km WNW of Caol, United Kingdom",
+                "time": 1168994824200,
+                "updated": 1415323883812,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f2tz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f2tz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "us",
+                "code": "p000f2tz",
+                "ids": ",usp000f2tz,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 8,
+                "dmin": null,
+                "rms": null,
+                "gap": 176,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 33 km WNW of Caol, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.624,
+                    56.942,
+                    6.2
+                ]
+            },
+            "id": "usp000f2tz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "3 km SSW of Conisbrough, United Kingdom",
+                "time": 1173891253900,
+                "updated": 1415323912511,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f6qb",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f6qb&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "us",
+                "code": "p000f6qb",
+                "ids": ",usp000f6qb,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 6,
+                "dmin": null,
+                "rms": null,
+                "gap": 204.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 3 km SSW of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.254,
+                    53.458,
+                    1.3
+                ]
+            },
+            "id": "usp000f6qb"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "2 km SSW of Conisbrough, United Kingdom",
+                "time": 1174395823800,
+                "updated": 1415323914191,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f723",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f723&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "us",
+                "code": "p000f723",
+                "ids": ",usp000f723,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 206.9,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 2 km SSW of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.248,
+                    53.461,
+                    1.6
+                ]
+            },
+            "id": "usp000f723"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.7,
+                "place": "3 km S of Conisbrough, United Kingdom",
+                "time": 1174469193900,
+                "updated": 1415323914353,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f73n",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f73n&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 44,
+                "net": "us",
+                "code": "p000f73n",
+                "ids": ",usp000f73n,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 8,
+                "dmin": null,
+                "rms": null,
+                "gap": 209,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.7 - 3 km S of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.225,
+                    53.453,
+                    1.7
+                ]
+            },
+            "id": "usp000f73n"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.2,
+                "place": "2 km S of Conisbrough, United Kingdom",
+                "time": 1174529142800,
+                "updated": 1415323914551,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f74z",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f74z&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 22,
+                "net": "us",
+                "code": "p000f74z",
+                "ids": ",usp000f74z,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 6,
+                "dmin": null,
+                "rms": null,
+                "gap": 207.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.2 - 2 km S of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.239,
+                    53.461,
+                    2.6
+                ]
+            },
+            "id": "usp000f74z"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.6,
+                "place": "2 km S of Conisbrough, United Kingdom",
+                "time": 1174613879000,
+                "updated": 1415323914806,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f76w",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f76w&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 39,
+                "net": "us",
+                "code": "p000f76w",
+                "ids": ",usp000f76w,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 9,
+                "dmin": null,
+                "rms": null,
+                "gap": 205.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.6 - 2 km S of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.23,
+                    53.46,
+                    2.6
+                ]
+            },
+            "id": "usp000f76w"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.3,
+                "place": "1 km ESE of Conisbrough, United Kingdom",
+                "time": 1175009857900,
+                "updated": 1415323916918,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f7mz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f7mz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 26,
+                "net": "us",
+                "code": "p000f7mz",
+                "ids": ",usp000f7mz,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 211.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.3 - 1 km ESE of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.212,
+                    53.476,
+                    1.9
+                ]
+            },
+            "id": "usp000f7mz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.4,
+                "place": "3 km S of Conisbrough, United Kingdom",
+                "time": 1175209155000,
+                "updated": 1415323917755,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000f7tw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000f7tw&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 30,
+                "net": "us",
+                "code": "p000f7tw",
+                "ids": ",usp000f7tw,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 7,
+                "dmin": null,
+                "rms": null,
+                "gap": 209.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.4 - 3 km S of Conisbrough, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.223,
+                    53.453,
+                    2.6
+                ]
+            },
+            "id": "usp000f7tw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.6,
+                "place": "1 km WNW of Lympne, United Kingdom",
+                "time": 1177744691360,
+                "updated": 1600464750339,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fase",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fase&format=geojson",
+                "felt": 275,
+                "cdi": 5.6,
+                "mmi": 5.172,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 480,
+                "net": "us",
+                "code": "p000fase",
+                "ids": ",us2007bsal,usp000fase,atlas20070428071811,",
+                "sources": ",us,us,atlas,",
+                "types": ",associate,dyfi,impact-text,origin,phase-data,shakemap,trump-shakemap,",
+                "nst": 295,
+                "dmin": null,
+                "rms": 1.12,
+                "gap": 31.8,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.6 - 1 km WNW of Lympne, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.009,
+                    51.085,
+                    10
+                ]
+            },
+            "id": "usp000fase"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km ENE of Grimston, United Kingdom",
+                "time": 1184692664600,
+                "updated": 1415323979004,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fgf6",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fgf6&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "p000fgf6",
+                "ids": ",usp000fgf6,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 10,
+                "dmin": null,
+                "rms": null,
+                "gap": 116.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km ENE of Grimston, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.957,
+                    52.801,
+                    2.6
+                ]
+            },
+            "id": "usp000fgf6"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "2 km SW of Failsworth, United Kingdom",
+                "time": 1186743010900,
+                "updated": 1415323993960,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fjax",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fjax&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000fjax",
+                "ids": ",usp000fjax,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 184.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 2 km SW of Failsworth, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.185,
+                    53.488,
+                    4.6
+                ]
+            },
+            "id": "usp000fjax"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.2,
+                "place": "2 km W of Droylsden, United Kingdom",
+                "time": 1188449195500,
+                "updated": 1415324004470,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fkzp",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fkzp&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 74,
+                "net": "us",
+                "code": "p000fkzp",
+                "ids": ",usp000fkzp,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 12,
+                "dmin": null,
+                "rms": null,
+                "gap": 72.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.2 - 2 km W of Droylsden, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.178,
+                    53.482,
+                    4.5
+                ]
+            },
+            "id": "usp000fkzp"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "2 km NE of Margate, United Kingdom",
+                "time": 1194092606800,
+                "updated": 1415324046592,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000frwm",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000frwm&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "us",
+                "code": "p000frwm",
+                "ids": ",usp000frwm,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 10,
+                "dmin": null,
+                "rms": null,
+                "gap": 159.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 2 km NE of Margate, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.415,
+                    51.399,
+                    0
+                ]
+            },
+            "id": "usp000frwm"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "3 km SSE of Penicuik, United Kingdom",
+                "time": 1196442536800,
+                "updated": 1415324056325,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ftkz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ftkz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "us",
+                "code": "p000ftkz",
+                "ids": ",usp000ftkz,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 14,
+                "dmin": null,
+                "rms": null,
+                "gap": 65.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 3 km SSE of Penicuik, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.206,
+                    55.804,
+                    6.3
+                ]
+            },
+            "id": "usp000ftkz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.3,
+                "place": "4 km NNE of Llanrhaeadr-ym-Mochnant, United Kingdom",
+                "time": 1196460343500,
+                "updated": 1415324056361,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000ftm9",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000ftm9&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 168,
+                "net": "us",
+                "code": "p000ftm9",
+                "ids": ",usp000ftm9,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 51,
+                "dmin": null,
+                "rms": null,
+                "gap": 77.6,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.3 - 4 km NNE of Llanrhaeadr-ym-Mochnant, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.277,
+                    52.866,
+                    12
+                ]
+            },
+            "id": "usp000ftm9"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "4 km S of Penicuik, United Kingdom",
+                "time": 1197215997200,
+                "updated": 1415324062791,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fu4s",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fu4s&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 81,
+                "net": "us",
+                "code": "p000fu4s",
+                "ids": ",usp000fu4s,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 13,
+                "dmin": null,
+                "rms": null,
+                "gap": 88.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 4 km S of Penicuik, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.221,
+                    55.788,
+                    4.7
+                ]
+            },
+            "id": "usp000fu4s"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.1,
+                "place": "184 km ENE of Peterhead, United Kingdom",
+                "time": 1199918344600,
+                "updated": 1415324079836,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000fwc5",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000fwc5&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 148,
+                "net": "us",
+                "code": "p000fwc5",
+                "ids": ",usp000fwc5,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 29,
+                "dmin": null,
+                "rms": null,
+                "gap": 171.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.1 - 184 km ENE of Peterhead, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.032,
+                    58.204,
+                    20.2
+                ]
+            },
+            "id": "usp000fwc5"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.8,
+                "place": "1 km NNE of Market Rasen, United Kingdom",
+                "time": 1204073807800,
+                "updated": 1600466852312,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g02w",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000g02w&format=geojson",
+                "felt": 19102,
+                "cdi": 6.2,
+                "mmi": 5.746,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 974,
+                "net": "us",
+                "code": "p000g02w",
+                "ids": ",us2008nyae,usp000g02w,atlas20080227005647,",
+                "sources": ",us,us,atlas,",
+                "types": ",associate,dyfi,impact-text,origin,phase-data,shakemap,trump-shakemap,",
+                "nst": 361,
+                "dmin": null,
+                "rms": null,
+                "gap": 19.2,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.8 - 1 km NNE of Market Rasen, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.332,
+                    53.403,
+                    18.4
+                ]
+            },
+            "id": "usp000g02w"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "38 km NW of St Just, United Kingdom",
+                "time": 1206261189600,
+                "updated": 1415324118230,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g244",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000g244&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "us",
+                "code": "p000g244",
+                "ids": ",usp000g244,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 20,
+                "dmin": null,
+                "rms": null,
+                "gap": 253.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 38 km NW of St Just, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.04,
+                    50.382,
+                    6
+                ]
+            },
+            "id": "usp000g244"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.1,
+                "place": "3 km SSE of Middle Rasen, United Kingdom",
+                "time": 1207403846200,
+                "updated": 1415324131496,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g35b",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000g35b&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 148,
+                "net": "us",
+                "code": "p000g35b",
+                "ids": ",usp000g35b,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 24,
+                "dmin": null,
+                "rms": null,
+                "gap": 291.3,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.1 - 3 km SSE of Middle Rasen, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.351,
+                    53.357,
+                    19.2
+                ]
+            },
+            "id": "usp000g35b"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "12 km WNW of Penrith, United Kingdom",
+                "time": 1212005348300,
+                "updated": 1415324167376,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000g7zy",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000g7zy&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "p000g7zy",
+                "ids": ",usp000g7zy,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": null,
+                "gap": 89.4,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 12 km WNW of Penrith, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.952,
+                    54.691,
+                    6.3
+                ]
+            },
+            "id": "usp000g7zy"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 1.5,
+                "place": "1 km N of Stockton Heath, United Kingdom",
+                "time": 1218579758100,
+                "updated": 1415324213432,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000geh4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000geh4&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 35,
+                "net": "us",
+                "code": "p000geh4",
+                "ids": ",usp000geh4,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 8,
+                "dmin": null,
+                "rms": null,
+                "gap": 127,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 1.5 - 1 km N of Stockton Heath, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.574,
+                    53.38,
+                    9.1
+                ]
+            },
+            "id": "usp000geh4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "27 km W of Fort William, United Kingdom",
+                "time": 1223612919300,
+                "updated": 1415324246726,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000gjuf",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gjuf&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000gjuf",
+                "ids": ",usp000gjuf,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 42,
+                "dmin": null,
+                "rms": null,
+                "gap": 116.1,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 27 km W of Fort William, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.557,
+                    56.829,
+                    12.5
+                ]
+            },
+            "id": "usp000gjuf"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.9,
+                "place": "2 km N of Bromyard, United Kingdom",
+                "time": 1225044386000,
+                "updated": 1415324252689,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000gm35",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gm35&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 234,
+                "net": "us",
+                "code": "p000gm35",
+                "ids": ",usp000gm35,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 96,
+                "dmin": null,
+                "rms": null,
+                "gap": 53.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.9 - 2 km N of Bromyard, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.512,
+                    52.212,
+                    9.3
+                ]
+            },
+            "id": "usp000gm35"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "France",
+                "time": 1227704156100,
+                "updated": 1415324268267,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000gpg5",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gpg5&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000gpg5",
+                "ids": ",usp000gpg5,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 6,
+                "dmin": null,
+                "rms": null,
+                "gap": 217.6,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - France"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.18,
+                    50.44,
+                    5
+                ]
+            },
+            "id": "usp000gpg5"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "1 km ENE of Hawkinge, United Kingdom",
+                "time": 1236090955900,
+                "updated": 1427158722538,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000guke",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000guke&format=geojson",
+                "felt": 17,
+                "cdi": 4.1,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 195,
+                "net": "us",
+                "code": "p000guke",
+                "ids": ",usp000guke,us2009dtbd,",
+                "sources": ",us,us,",
+                "types": ",associate,dyfi,impact-text,origin,phase-data,",
+                "nst": 17,
+                "dmin": null,
+                "rms": null,
+                "gap": 93.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 1 km ENE of Hawkinge, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.178,
+                    51.116,
+                    3.5
+                ]
+            },
+            "id": "usp000guke"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "5 km ENE of Goxhill, United Kingdom",
+                "time": 1239449947200,
+                "updated": 1415324325948,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000gw15",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gw15&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 138,
+                "net": "us",
+                "code": "p000gw15",
+                "ids": ",usp000gw15,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 23,
+                "dmin": null,
+                "rms": null,
+                "gap": 159.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 5 km ENE of Goxhill, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.252,
+                    53.687,
+                    15.3
+                ]
+            },
+            "id": "usp000gw15"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.7,
+                "place": "3 km WSW of Flookburgh, United Kingdom",
+                "time": 1240914129510,
+                "updated": 1415324330565,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000gwn8",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000gwn8&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 211,
+                "net": "us",
+                "code": "p000gwn8",
+                "ids": ",usp000gwn8,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 70,
+                "dmin": null,
+                "rms": null,
+                "gap": 91.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.7 - 3 km WSW of Flookburgh, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.017,
+                    54.167,
+                    8.8
+                ]
+            },
+            "id": "usp000gwn8"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "12 km WSW of Ambleside, United Kingdom",
+                "time": 1292972352700,
+                "updated": 1415324591102,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000hrck",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000hrck&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000hrck",
+                "ids": ",usp000hrck,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 31,
+                "dmin": null,
+                "rms": null,
+                "gap": 62.5,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 12 km WSW of Ambleside, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.146,
+                    54.39,
+                    12.6
+                ]
+            },
+            "id": "usp000hrck"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.6,
+                "place": "5 km S of Masham, United Kingdom",
+                "time": 1294088589400,
+                "updated": 1427161168910,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000hsj4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000hsj4&format=geojson",
+                "felt": 494,
+                "cdi": 3.8,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 387,
+                "net": "us",
+                "code": "p000hsj4",
+                "ids": ",us2011frb5,usp000hsj4,",
+                "sources": ",us,us,",
+                "types": ",associate,dyfi,impact-text,origin,phase-data,",
+                "nst": 23,
+                "dmin": null,
+                "rms": null,
+                "gap": 88,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.6 - 5 km S of Masham, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.652,
+                    54.169,
+                    6
+                ]
+            },
+            "id": "usp000hsj4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "28 km NE of Tobermory, United Kingdom",
+                "time": 1295762569300,
+                "updated": 1415324608776,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000hthp",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000hthp&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "p000hthp",
+                "ids": ",usp000hthp,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 13,
+                "dmin": null,
+                "rms": null,
+                "gap": 150.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 28 km NE of Tobermory, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.784,
+                    56.822,
+                    16.2
+                ]
+            },
+            "id": "usp000hthp"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "4 km WSW of Bovey Tracey, United Kingdom",
+                "time": 1308836618100,
+                "updated": 1415324709370,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000j3m3",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000j3m3&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 112,
+                "net": "us",
+                "code": "p000j3m3",
+                "ids": ",usp000j3m3,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 10,
+                "dmin": null,
+                "rms": null,
+                "gap": 177.9,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - 4 km WSW of Bovey Tracey, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.734,
+                    50.571,
+                    2.8
+                ]
+            },
+            "id": "usp000j3m3"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.9,
+                "place": "62 km SSE of Ventnor, United Kingdom",
+                "time": 1310626750900,
+                "updated": 1415324721736,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000j4v4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000j4v4&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 234,
+                "net": "us",
+                "code": "p000j4v4",
+                "ids": ",usp000j4v4,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 85,
+                "dmin": null,
+                "rms": null,
+                "gap": 47.7,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.9 - 62 km SSE of Ventnor, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.743,
+                    50.122,
+                    10
+                ]
+            },
+            "id": "usp000j4v4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "0 km NE of Hathern, United Kingdom",
+                "time": 1358486444400,
+                "updated": 1427162405562,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000jyhq",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000jyhq&format=geojson",
+                "felt": 28,
+                "cdi": 4.1,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 141,
+                "net": "us",
+                "code": "p000jyhq",
+                "ids": ",usb000equa,usp000jyhq,",
+                "sources": ",us,us,",
+                "types": ",associate,dyfi,impact-text,origin,phase-data,",
+                "nst": 19,
+                "dmin": null,
+                "rms": null,
+                "gap": 77.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 0 km NE of Hathern, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.25,
+                    52.801,
+                    13
+                ]
+            },
+            "id": "usp000jyhq"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.3,
+                "place": "3 km SE of Caernarfon, United Kingdom",
+                "time": 1360276864000,
+                "updated": 1422627551111,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000f3w6",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usc000f3w6&format=geojson",
+                "felt": 5,
+                "cdi": 2.7,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 83,
+                "net": "us",
+                "code": "c000f3w6",
+                "ids": ",usc000f3w6,",
+                "sources": ",us,",
+                "types": ",dyfi,impact-text,origin,phase-data,",
+                "nst": 4,
+                "dmin": null,
+                "rms": null,
+                "gap": 137.8,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.3 - 3 km SE of Caernarfon, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.231,
+                    53.125,
+                    9
+                ]
+            },
+            "id": "usc000f3w6"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "27 km NE of Tobermory, United Kingdom",
+                "time": 1368904682790,
+                "updated": 1415325049942,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2013qib5",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2013qib5&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 129,
+                "net": "us",
+                "code": "2013qib5",
+                "ids": ",us2013qib5,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 6,
+                "dmin": null,
+                "rms": null,
+                "gap": 100,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 27 km NE of Tobermory, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.715,
+                    56.776,
+                    10
+                ]
+            },
+            "id": "us2013qib5"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.8,
+                "place": "14 km WSW of Nefyn, United Kingdom",
+                "time": 1369797388900,
+                "updated": 1422488518679,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usb000h7yc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usb000h7yc&format=geojson",
+                "felt": 49,
+                "cdi": 4.4,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 244,
+                "net": "us",
+                "code": "b000h7yc",
+                "ids": ",usb000h7yc,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": 74,
+                "dmin": null,
+                "rms": null,
+                "gap": 135.2,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.8 - 14 km WSW of Nefyn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.719,
+                    52.883,
+                    10
+                ]
+            },
+            "id": "usb000h7yc"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "14 km WSW of Nefyn, United Kingdom",
+                "time": 1372285681500,
+                "updated": 1415325067631,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usp000k1gg",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000k1gg&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 121,
+                "net": "us",
+                "code": "p000k1gg",
+                "ids": ",usp000k1gg,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": 5,
+                "dmin": null,
+                "rms": null,
+                "gap": 100,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 14 km WSW of Nefyn, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.72,
+                    52.879,
+                    8
+                ]
+            },
+            "id": "usp000k1gg"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.2,
+                "place": "23 km W of Cleveleys, United Kingdom",
+                "time": 1377424715800,
+                "updated": 1422617929905,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usb000jbmh",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usb000jbmh&format=geojson",
+                "felt": 6,
+                "cdi": 3.9,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 160,
+                "net": "us",
+                "code": "b000jbmh",
+                "ids": ",usb000jbmh,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.61,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.2 - 23 km W of Cleveleys, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.403,
+                    53.887,
+                    8
+                ]
+            },
+            "id": "usb000jbmh"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.1,
+                "place": "17 km NNW of Ilfracombe, United Kingdom",
+                "time": 1392902490000,
+                "updated": 1399420984000,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000muba",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usc000muba&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 259,
+                "net": "us",
+                "code": "c000muba",
+                "ids": ",usc000muba,",
+                "sources": ",us,",
+                "types": ",cap,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.87,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 4.1 - 17 km NNW of Ilfracombe, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.164,
+                    51.363,
+                    3
+                ]
+            },
+            "id": "usc000muba"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.5,
+                "place": "3 km WSW of Market Overton, United Kingdom",
+                "time": 1397803851500,
+                "updated": 1404437614000,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usb000ppvz",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usb000ppvz&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 188,
+                "net": "us",
+                "code": "b000ppvz",
+                "ids": ",usb000ppvz,",
+                "sources": ",us,",
+                "types": ",cap,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.55,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.5 - 3 km WSW of Market Overton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.732,
+                    52.722,
+                    2
+                ]
+            },
+            "id": "usb000ppvz"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km NNE of Hucknall, United Kingdom",
+                "time": 1414523814600,
+                "updated": 1421457943040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usb000srj4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usb000srj4&format=geojson",
+                "felt": 1,
+                "cdi": 2.5,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 104,
+                "net": "us",
+                "code": "b000srj4",
+                "ids": ",usb000srj4,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.41,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km NNE of Hucknall, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.191,
+                    53.057,
+                    7
+                ]
+            },
+            "id": "usb000srj4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.9,
+                "place": "1 km ENE of Winchester, United Kingdom",
+                "time": 1422383417600,
+                "updated": 1429894545040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000tjwr",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usc000tjwr&format=geojson",
+                "felt": 3,
+                "cdi": 3.1,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 130,
+                "net": "us",
+                "code": "c000tjwr",
+                "ids": ",usc000tjwr,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.01,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.9 - 1 km ENE of Winchester, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.299,
+                    51.072,
+                    3
+                ]
+            },
+            "id": "usc000tjwr"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.8,
+                "place": "2 km WSW of Market Overton, United Kingdom",
+                "time": 1422483953700,
+                "updated": 1429894545040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000tjwv",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=usc000tjwv&format=geojson",
+                "felt": 147,
+                "cdi": 4.6,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 290,
+                "net": "us",
+                "code": "c000tjwv",
+                "ids": ",usc000tjwv,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.83,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.8 - 2 km WSW of Market Overton, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.717,
+                    52.727,
+                    3
+                ]
+            },
+            "id": "usc000tjwv"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.7,
+                "place": "3 km SSE of Ramsgate, United Kingdom",
+                "time": 1432259537900,
+                "updated": 1456503738410,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10002bap",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us10002bap&format=geojson",
+                "felt": 154,
+                "cdi": 4.3,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 277,
+                "net": "us",
+                "code": "10002bap",
+                "ids": ",us10002bap,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,moment-tensor,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.84,
+                "gap": null,
+                "magType": "mwr",
+                "type": "earthquake",
+                "title": "M 3.7 - 3 km SSE of Ramsgate, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.438,
+                    51.304,
+                    12
+                ]
+            },
+            "id": "us10002bap"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3,
+                "place": "6 km WSW of Caernarfon, United Kingdom",
+                "time": 1432654863800,
+                "updated": 1438133745040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us10002cc4",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us10002cc4&format=geojson",
+                "felt": 5,
+                "cdi": 3.8,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 140,
+                "net": "us",
+                "code": "10002cc4",
+                "ids": ",us10002cc4,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.75,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.0 - 6 km WSW of Caernarfon, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.355,
+                    53.116,
+                    9
+                ]
+            },
+            "id": "us10002cc4"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "2 km W of Cottesmore, United Kingdom",
+                "time": 1442958011200,
+                "updated": 1450739793040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003n3q",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us20003n3q&format=geojson",
+                "felt": 10,
+                "cdi": 3.4,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 124,
+                "net": "us",
+                "code": "20003n3q",
+                "ids": ",us20003n3q,",
+                "sources": ",us,",
+                "types": ",cap,dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.7,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.8 - 2 km W of Cottesmore, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.693,
+                    52.714,
+                    2
+                ]
+            },
+            "id": "us20003n3q"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 3.8,
+                "place": "31 km NE of Tobermory, United Kingdom",
+                "time": 1501857816590,
+                "updated": 1508291658040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000a62y",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000a62y&format=geojson",
+                "felt": 9,
+                "cdi": 4.3,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 226,
+                "net": "us",
+                "code": "2000a62y",
+                "ids": ",us2000a62y,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": 2.08,
+                "rms": 0.59,
+                "gap": 137,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 3.8 - 31 km NE of Tobermory, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.7295,
+                    56.8378,
+                    7.07
+                ]
+            },
+            "id": "us2000a62y"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "2 km NNW of Tarbert, United Kingdom",
+                "time": 1509569962000,
+                "updated": 1516757104040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000bf5x",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000bf5x&format=geojson",
+                "felt": 30,
+                "cdi": 3.2,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 114,
+                "net": "us",
+                "code": "2000bf5x",
+                "ids": ",us2000bf5x,",
+                "sources": ",us,",
+                "types": ",dyfi,impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.55,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 2 km NNW of Tarbert, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.429,
+                    55.883,
+                    7
+                ]
+            },
+            "id": "us2000bf5x"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.3,
+                "place": "5 km NE of Clydach, United Kingdom",
+                "time": 1518877865070,
+                "updated": 1594400643878,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d3uw",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000d3uw&format=geojson",
+                "felt": 3708,
+                "cdi": 4.8,
+                "mmi": 4.638,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 764,
+                "net": "us",
+                "code": "2000d3uw",
+                "ids": ",us2000d3uw,",
+                "sources": ",us,",
+                "types": ",dyfi,impact-text,origin,phase-data,shakemap,",
+                "nst": null,
+                "dmin": 2.167,
+                "rms": 1.14,
+                "gap": 92,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.3 - 5 km NE of Clydach, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.8559,
+                    51.7231,
+                    11.55
+                ]
+            },
+            "id": "us2000d3uw"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.7,
+                "place": "4 km E of Holmwood, United Kingdom",
+                "time": 1522581061000,
+                "updated": 1529703139040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000dc9r",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us1000dc9r&format=geojson",
+                "felt": 22,
+                "cdi": 3.3,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 119,
+                "net": "us",
+                "code": "1000dc9r",
+                "ids": ",us1000dc9r,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.07,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.7 - 4 km E of Holmwood, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.257,
+                    51.174,
+                    5
+                ]
+            },
+            "id": "us1000dc9r"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 4.1,
+                "place": "7 km NNE of Withernsea, United Kingdom",
+                "time": 1528582465670,
+                "updated": 1535560582040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000emw5",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us1000emw5&format=geojson",
+                "felt": 33,
+                "cdi": 3.9,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 271,
+                "net": "us",
+                "code": "1000emw5",
+                "ids": ",us1000emw5,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": 2.438,
+                "rms": 1.01,
+                "gap": 76,
+                "magType": "mb",
+                "type": "earthquake",
+                "title": "M 4.1 - 7 km NNE of Withernsea, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0603,
+                    53.7927,
+                    10
+                ]
+            },
+            "id": "us1000emw5"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.6,
+                "place": "5 km W of Capel, United Kingdom",
+                "time": 1530102503700,
+                "updated": 1537547147040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000fpl7",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000fpl7&format=geojson",
+                "felt": 17,
+                "cdi": 3.8,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 110,
+                "net": "us",
+                "code": "2000fpl7",
+                "ids": ",us2000fpl7,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 0.8,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.6 - 5 km W of Capel, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.258,
+                    51.154,
+                    5
+                ]
+            },
+            "id": "us2000fpl7"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.4,
+                "place": "4 km E of Capel, United Kingdom",
+                "time": 1530251652600,
+                "updated": 1537547147040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000ft87",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000ft87&format=geojson",
+                "felt": 3,
+                "cdi": 2,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 89,
+                "net": "us",
+                "code": "2000ft87",
+                "ids": ",us2000ft87,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": null,
+                "rms": 1.8,
+                "gap": null,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.4 - 4 km E of Capel, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.265,
+                    51.152,
+                    5
+                ]
+            },
+            "id": "us2000ft87"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.8,
+                "place": "1 km S of Ewhurst, United Kingdom",
+                "time": 1530788004180,
+                "updated": 1551245211157,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000fxc7",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000fxc7&format=geojson",
+                "felt": 171,
+                "cdi": 4.2,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 192,
+                "net": "us",
+                "code": "2000fxc7",
+                "ids": ",us2000fxc7,",
+                "sources": ",us,",
+                "types": ",dyfi,origin,phase-data,",
+                "nst": null,
+                "dmin": 3.582,
+                "rms": 0.41,
+                "gap": 190,
+                "magType": "mb_lg",
+                "type": "earthquake",
+                "title": "M 2.8 - 1 km S of Ewhurst, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.4435,
+                    51.1437,
+                    10
+                ]
+            },
+            "id": "us2000fxc7"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 2.5,
+                "place": "1 km ENE of Gourock, United Kingdom",
+                "time": 1535668487620,
+                "updated": 1541615829040,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000h6y0",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us2000h6y0&format=geojson",
+                "felt": null,
+                "cdi": null,
+                "mmi": null,
+                "alert": null,
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 96,
+                "net": "us",
+                "code": "2000h6y0",
+                "ids": ",us2000h6y0,",
+                "sources": ",us,",
+                "types": ",impact-text,origin,phase-data,",
+                "nst": null,
+                "dmin": 1.112,
+                "rms": 0.26,
+                "gap": 211,
+                "magType": "ml",
+                "type": "earthquake",
+                "title": "M 2.5 - 1 km ENE of Gourock, United Kingdom"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7957,
+                    55.9663,
+                    10
+                ]
+            },
+            "id": "us2000h6y0"
+        }
+    ],
+    "bbox": [
+        -6.04,
+        50.048,
+        0,
+        1.582,
+        58.204,
+        28.7
+    ]
+}
