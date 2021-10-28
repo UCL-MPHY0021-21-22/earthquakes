@@ -89,25 +89,28 @@ def get_maximum(data):
     # return biggest_earthquake["mag"], biggest_earthquake["location"]
 
 n_earthquakes = np.zeros(21)
-n-average = np.zeros(21)
+n_avarage = np.zeros(21)
 
 for i in range(2000,2021):
     start_time = str(i) + '-01-01'
     end_time = str(i+1) + '-01-01'
     data = get_data(start_time,end_time)
     n_earthquakes[i-2000] = count_earthquakes(data)
+    sum = 0
     for j in range(count_earthquakes(data)):
+        sum = sum + get_magnitude(data["features"][j])
+    n_avarage[i-2000] = sum/(count_earthquakes(data)+1)
 
-
-
-
-    
-       
-
+'''
 plt.plot(np.arange(2000,2021,1),n_earthquakes)
 plt.xlabel('Year')
 plt.ylabel('Number of earthquakes')
 plt.savefig('num_earthquakes_year')
+'''
+plt.plot(np.arange(2000,2021,1),n_avarage)
+plt.xlabel('Year')
+plt.ylabel('Average magnitude of earthquakes')
+plt.savefig('avg_earthquakes_year')
 
 
 # With all the above functions defined, we can now call them and get the result
