@@ -66,3 +66,38 @@ data = get_data()
 print(f"Loaded {count_earthquakes(data)}")
 max_magnitude, max_location = get_maximum(data)
 print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
+
+
+############################################################################################
+############################################################################################
+
+#the frequency (number) of earthquakes per year
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+import datetime
+time_humanfriendly = [datetime.datetime.fromtimestamp((dict.get("properties").get("time"))/1000).strftime('%Y') for dict in data.get("features")]
+x = time_humanfriendly
+
+plt.xticks(rotation = 'vertical')
+plt.hist(x, density=False)  
+plt.ylabel('Count of Earthquakes')
+plt.xlabel('Years')
+plt.show()
+plt.savefig('frequency_per_year.png');
+
+############################################################################################
+############################################################################################
+
+#the average magnitude of earthquakes per year
+
+import pandas as pd
+
+magnitude_and_years = [(  [dict.get("properties").get("mag")]   +   [datetime.datetime.fromtimestamp((dict.get("properties").get("time"))/1000).strftime('%Y')]  ) for dict in data.get("features")]
+magnitude_and_years
+
+mag_years_df = pd.DataFrame(magnitude_and_years, columns=["magnitude","years"])
+mag_years_df_grouped = mag_years_df.groupby(["years"]).mean()
+mag_years_df_grouped.plot(kind = "bar").figure.savefig('magnitude_per_year.png')
+
