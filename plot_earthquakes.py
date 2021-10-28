@@ -1,6 +1,7 @@
 from datetime import date
 
 import matplotlib.pyplot as plt
+import seaborn as sns
 import requests
 import json
 import numpy as np
@@ -34,7 +35,6 @@ def get_data():
     return json.loads(text)
 
 
-
 def get_year(earthquake):
     """Extract the year in which an earthquake happened."""
     timestamp = earthquake['properties']['time']
@@ -49,6 +49,7 @@ def get_year(earthquake):
 def get_magnitude(earthquake):
     """Retrive the magnitude of an earthquake item."""
     return earthquake['properties']['mag']
+
 
 # This is function you may want to create to break down the computations,
 # although it is not necessary. You may also change it to something different.
@@ -71,19 +72,38 @@ def get_magnitudes_per_year(earthquakes):
 
 def plot_average_magnitude_per_year(earthquakes):
     result = get_magnitudes_per_year(earthquakes)
-    average_magnitudes = [magnitudes.mean() for magnitudes in result.values() if len(magnitudes)]
-    years = [year for year in result.keys() if len(result[year])]
+    average_magnitudes = np.array([magnitudes.mean() for magnitudes in result.values() if len(magnitudes)])
+    years = np.array([year for year in result.keys() if len(result[year])])
 
-    plt.plot(result.keys(), average_magnitudes)
-    plt.show()
+    # plt.plot(years, average_magnitudes)
+    # plt.xlabel('Year')
+    # plt.ylabel('Average Earthquake Magnitude')
+    # plt.show()
+    # plt.savefig('Average Earthquake Magnitude per Year.png')
+
+    fig, ax = plt.subplots(figsize=(10,10))
+    plot = sns.barplot(x = years, y = average_magnitudes, ax = ax)
+    plt.tight_layout()
+    plot.set(xlabel = 'Year', ylabel = 'Average Earthquake Magnitude')
+    plot.figure.savefig('Average Earthquake Magnitude per Year.png')
 
 
 def plot_number_per_year(earthquakes):
     result = get_magnitudes_per_year(earthquakes)
-    number_per_year = [len(magnitudes) for magnitudes in result.values()]
+    number_per_year = np.array([len(magnitudes) for magnitudes in result.values()])
+    years = np.array(list(result.keys()))
     
-    plt.plot(result.keys(), number_per_year)
-    plt.show()
+    # plt.plot(result.keys(), number_per_year)
+    # plt.xlabel('Year')
+    # plt.ylabel('Number of Recorded Earthquakes')
+    # plt.show()
+    # plt.savefig('Number of Recorded Earthquakes per Year.png')
+
+    fig, ax = plt.subplots(figsize=(10,10))
+    plot = sns.barplot(x = years, y = number_per_year, ax = ax)
+    plt.tight_layout()
+    plot.set(xlabel = 'Year', ylabel = 'Number of Recorded Earthquakes')
+    plot.figure.savefig('Number of Recorded Earthquakes per Year.png')
 
 
 # Get the data we will work with
@@ -91,6 +111,6 @@ quakes = get_data()['features']
 
 # Plot the results - this is not perfect since the x axis is shown as real
 # numbers rather than integers, which is what we would prefer!
-plot_number_per_year(quakes)
-plt.clf()  # This clears the figure, so that we don't overlay the two plots
 plot_average_magnitude_per_year(quakes)
+plt.clf()  # This clears the figure, so that we don't overlay the two plots
+plot_number_per_year(quakes)
