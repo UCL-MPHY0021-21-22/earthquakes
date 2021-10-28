@@ -44,20 +44,25 @@ def get_maximum(data):
     return [max_value, get_location(data[index])]
 
 def get_year(earthquake):
+    """Gets the year from the given time format. 
+    Uses attributes from the datetime."""
     timestamp = earthquake["properties"]["time"]
     return date.fromtimestamp(timestamp/1000).year
 
 data = get_data()
 
+# Defines arrays of the years of the earthquakes and empty arrays for the y plots.
 years = np.arange(get_year(data[0]),get_year(data[-1]))
 frequency = np.zeros(len(years))
+av_mags = np.zeros(len(years))
 
+#Loop counting the number of earthquakes per year
 for earthquake in data:
     for indx, year in enumerate(years):
         if get_year(earthquake) == year:
             frequency[indx] +=1
 
-av_mags = np.zeros(len(years))
+#Loop working out the average magnitude per year, likely could be combined with the loop above
 for indx, year in enumerate(years):
     mag = 0
     for earthquake in data:
@@ -68,7 +73,7 @@ for indx, year in enumerate(years):
     else:
         av_mags[indx] = 0
 
-
+#Plotting:
 plot1 = plt.figure(1,figsize=(10,10))
 plot1.add_subplot(2,1,1)
 plt.bar(years,frequency,tick_label=years)
