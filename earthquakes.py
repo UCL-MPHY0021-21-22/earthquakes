@@ -24,17 +24,14 @@ def get_data():
     # The response we get back is an object with several fields.
     # The actual contents we care about are in its text field:
     text = response.text
-    print(text)
-    #with open('testOutput.json','w+') as target:
-    #    target.write(text)
     # To understand the structure of this text, you may want to save it
     # to a file and open it in VS Code or a browser.
     # See the README file for more information.
-    ...
+    
 
     # We need to interpret the text to get values that we can work with.
     # What format is the text in? How can we load the values?
-    return ...
+    return json.loads(text)
 
 def count_earthquakes(data):
     """Get the total number of earthquakes in the response."""
@@ -59,6 +56,9 @@ def get_maximum(data):
 
 # With all the above functions defined, we can now call them and get the result
 data = get_data()
+
+with open('earthquakeData.json','w') as output_file:
+    json.dump(data,output_file)
 #print(f"Loaded {count_earthquakes(data)}")
 #max_magnitude, max_location = get_maximum(data)
 #print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
