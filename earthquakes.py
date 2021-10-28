@@ -57,11 +57,34 @@ for earthquake in data:
         if get_year(earthquake) == year:
             frequency[indx] +=1
 
+av_mags = np.zeros(len(years))
+for indx, year in enumerate(years):
+    mag = 0
+    for earthquake in data:
+        if get_year(earthquake) == year:
+            mag += get_magnitude(earthquake)
+    if frequency[indx] != 0:
+        av_mags[indx] = mag/frequency[indx]
+    else:
+        av_mags[indx] = 0
+
+
+plot1 = plt.figure(1,figsize=(10,10))
+plot1.add_subplot(2,1,1)
 plt.bar(years,frequency,tick_label=years)
 plt.xlabel("Year")
 plt.ylabel("Frequency")
 plt.title("Number of earthquakes per year")
+
+plot1.add_subplot(2,1,2)
+plt.plot(years,av_mags)
+plt.xlabel("Year")
+plt.ylabel("Average magnitude")
+plt.title("Average magnitude of earthquakes per year")
+plt.xticks(years)
 plt.show()
+plot1.savefig("earthquake_data.png")
+
 # # With all the above functions defined, we can now call them and get the result
 # print(f"Loaded {count_earthquakes(data)}")
 # max_magnitude, max_location = get_maximum(data)
