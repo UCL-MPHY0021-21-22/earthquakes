@@ -3,7 +3,9 @@
 # However, we will use a more powerful and simpler library called requests.
 # This is external library that you may need to install first.
 import requests
-
+import json
+from datetime import date
+import matplotlib.pyplot as plt
 
 def get_data():
     # With requests, we can ask the web service for the data.
@@ -29,14 +31,64 @@ def get_data():
     # See the README file for more information.
     ...
 
+    with open('text.json', 'w') as output_file:
+        output_file.write(text)
+
+    
     # We need to interpret the text to get values that we can work with.
     # What format is the text in? How can we load the values?
-    return ...
+    return  json.loads(text)
+
 
 def count_earthquakes(data):
     """Get the total number of earthquakes in the response."""
     return ...
 
+def get_year(earthquake):
+    """Extract the year in which an earthquake happened."""
+    timestamp = earthquake['properties']['time']
+    # The time is given in a strange-looking but commonly-used format.
+    # To understand it, we can look at the documentation of the source data:
+    # https://earthquake.usgs.gov/data/comcat/index.php#time
+    # Fortunately, Python provides a way of interpreting this timestamp:
+    # (Question for discussion: Why do we divide by 1000?)
+    year = date.fromtimestamp(timestamp/1000).year
+    return year
+
+
+def plot_number_per_year(earthquakes):
+    years = []
+    for earthquake in data["features"]:
+        if earthquake['properties']['type'] == 'earthquake':
+            years.append(get_year(earthquake))
+
+    counts = {}
+    #unique_years = []
+
+    for year in years:
+        if year not in counts.keys():
+            counts[year] = 1
+
+        else:
+            counts[year] += 1
+    X = []
+    Y = []
+    for year,count in counts.items():
+        X.append(year)
+        Y.append(count)
+
+    #x,y = counts.items()
+    plt.plot(X,Y)
+    plt.show()
+
+# This is function you may want to create to break down the computations,
+# although it is not necessary. You may also change it to something different.
+def get_magnitudes_per_year(earthquakes):
+    """Retrieve the magnitudes of all the earthquakes in a given year.
+    
+    Returns a dictionary with years as keys, and lists of magnitudes as values.
+    """
+    ...
 
 def get_magnitude(earthquake):
     """Retrive the magnitude of an earthquake item."""
@@ -57,5 +109,10 @@ def get_maximum(data):
 # With all the above functions defined, we can now call them and get the result
 data = get_data()
 print(f"Loaded {count_earthquakes(data)}")
-max_magnitude, max_location = get_maximum(data)
-print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
+#max_magnitude, max_location = get_maximum(data)
+
+
+
+
+
+#print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
