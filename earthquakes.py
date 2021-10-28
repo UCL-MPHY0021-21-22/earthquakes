@@ -45,25 +45,28 @@ def count_earthquakes(data):
 
 def get_magnitude(earthquake):
     """Retrive the magnitude of an earthquake item."""
-    get_mag = earthquake['features']['properties']['mag']
-    return get_mag
+    
+    return earthquake['properties']['mag']
 
 
 def get_location(earthquake):
     """Retrieve the latitude and longitude of an earthquake item."""
     # There are three coordinates, but we don't care about the third (altitude)
-    get_loc = earthquake['features']['geometry'][0:2]
-    return get_loc
+    return earthquake['geometry']['coordinates'][0:2]
 
 
 def get_maximum(data):
     """Get the magnitude and location of the strongest earthquake in the data."""
-    [mydata['features']['properties']['mag'] for x in ]
-    ...
+    list_mag = [get_magnitude(x) for x in data['features']]
+    max_mag = max(list_mag)
+
+    list_loc = [get_location(x) for x in data['features']]
+    max_loc = list_loc[list_mag.index(max_mag)]
+    return max_mag, max_loc
 
 
 # With all the above functions defined, we can now call them and get the result
 data = get_data()
 print(f"Loaded {count_earthquakes(data)}")
-#max_magnitude, max_location = get_maximum(data)
-#print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
+max_magnitude, max_location = get_maximum(data)
+print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
