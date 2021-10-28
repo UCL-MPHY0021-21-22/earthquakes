@@ -1,5 +1,8 @@
 import requests
 import json
+from datetime import date
+import numpy as np
+import matplotlib.pyplot as plt
 
 def get_data():
     response = requests.get(
@@ -40,10 +43,26 @@ def get_maximum(data):
     index = mags.index(max_value)
     return [max_value, get_location(data[index])]
 
+def get_year(earthquake):
+    timestamp = earthquake["properties"]["time"]
+    return date.fromtimestamp(timestamp/1000).year
 
-
-# With all the above functions defined, we can now call them and get the result
 data = get_data()
-print(f"Loaded {count_earthquakes(data)}")
-max_magnitude, max_location = get_maximum(data)
-print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
+
+years = np.arange(get_year(data[0]),get_year(data[-1]))
+frequency = np.zeros(len(years))
+
+for earthquake in data:
+    for indx, year in enumerate(years):
+        if get_year(earthquake) == year:
+            frequency[indx] +=1
+
+plt.bar(years,frequency,tick_label=years)
+plt.xlabel("Year")
+plt.ylabel("Frequency")
+plt.title("Number of earthquakes per year")
+plt.show()
+# # With all the above functions defined, we can now call them and get the result
+# print(f"Loaded {count_earthquakes(data)}")
+# max_magnitude, max_location = get_maximum(data)
+# print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
