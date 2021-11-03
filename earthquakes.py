@@ -41,8 +41,11 @@ def get_data():
 
 
 def count_earthquakes(data):
-    """Get the total number of earthquakes in the response."""
-    return ...
+    count = 0 
+    for earthquake in data["features"]:
+        if earthquake['properties']['type'] == 'earthquake':
+            count+=1
+    return count
 
 def get_year(earthquake):
     """Extract the year in which an earthquake happened."""
@@ -71,44 +74,76 @@ def plot_number_per_year(earthquakes):
 
         else:
             counts[year] += 1
-    X, Y = zip(*counts.items())
+    X, Y = zip(*counts.items()) #unzip the dictionary entries
 
     #x,y = counts.items()
     plt.plot(X,Y)
+    plt.ylabel('Number of eathquakes')
+    plt.xlabel('year')
     plt.show()
 
 # This is function you may want to create to break down the computations,
 # although it is not necessary. You may also change it to something different.
+
+def get_magnitude(earthquake):
+    """Retrive the magnitude of an earthquake item."""
+    return earthquake['properties']['mag']
+
+
 def get_magnitudes_per_year(earthquakes):
     """Retrieve the magnitudes of all the earthquakes in a given year.
     
     Returns a dictionary with years as keys, and lists of magnitudes as values.
     """
-    ...
 
-def get_magnitude(earthquake):
-    """Retrive the magnitude of an earthquake item."""
-    return ...
+    years = []
+    mags = []
+
+    for earthquake in data["features"]:
+        if earthquake['properties']['type'] == 'earthquake':
+            
+            years.append(get_year(earthquake)) 
+            mags.append(get_magnitude(earthquake))
+
+    year_keys = set(years) #take unique years as keys
+    magnitude_dic ={year:None for year in year_keys} # initialise the keys as unique years
+
+    for unique_year in year_keys:
+        mag_temp = []
+        i = 0 
+        for year in years:
+            if unique_year == year:
+                mag_temp.append(mags[i]) #take the magnitudes for this index
+            magnitude_dic[unique_year] = mag_temp
+            i+=1
+    return magnitude_dic
 
 
 def get_location(earthquake):
     """Retrieve the latitude and longitude of an earthquake item."""
     # There are three coordinates, but we don't care about the third (altitude)
-    return ...
+    return earthquake['geometry']['coordinates'][:2]
 
 
 def get_maximum(data):
     """Get the magnitude and location of the strongest earthquake in the data."""
-    ...
+    mags_per_year = get_magnitudes_per_year(data)
+    max_mag = max(max(mags_per_year.values()))  #get the maximum magnitude 
 
+    #find the corresponding location of that earthquake
+    for earthquake in data["features"]:
+            if earthquake['properties']['type'] == 'earthquake':
+                if get_magnitude(earthquake) == max_mag:
+
+                    max_location = get_location(earthquake)
+
+    return max_mag,max_location
 
 # With all the above functions defined, we can now call them and get the result
 data = get_data()
 print(f"Loaded {count_earthquakes(data)}")
-#max_magnitude, max_location = get_maximum(data)
+max_magnitude, max_location = get_maximum(data)
 
 
 
-
-
-#print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
+print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
