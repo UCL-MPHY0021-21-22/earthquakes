@@ -71,11 +71,7 @@ def plot_number_per_year(earthquakes):
 
         else:
             counts[year] += 1
-    X = []
-    Y = []
-    for year,count in counts.items():
-        X.append(year)
-        Y.append(count)
+    X, Y = zip(*counts.items())
 
     #x,y = counts.items()
     plt.plot(X,Y)
