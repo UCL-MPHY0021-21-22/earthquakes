@@ -66,7 +66,6 @@ def plot_number_per_year(earthquakes):
             years.append(get_year(earthquake))
 
     counts = {}
-    #unique_years = []
 
     for year in years:
         if year not in counts.keys():
@@ -76,7 +75,6 @@ def plot_number_per_year(earthquakes):
             counts[year] += 1
     X, Y = zip(*counts.items()) #unzip the dictionary entries
 
-    #x,y = counts.items()
     plt.plot(X,Y)
     plt.ylabel('Number of eathquakes')
     plt.xlabel('year')
@@ -143,7 +141,6 @@ def get_maximum(data):
 data = get_data()
 print(f"Loaded {count_earthquakes(data)}")
 max_magnitude, max_location = get_maximum(data)
-
 
 
 print(f"The strongest earthquake was at {max_location} with magnitude {max_magnitude}")
