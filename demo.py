@@ -23,10 +23,8 @@ response = requests.get(
 # print(response.text)
 
 # Download all the data
-with open('downloaded.json','w') as output_file:
+with open('downloaded.json','w',encoding='utf-8') as output_file:
     output_file.write(response.text)
-
-
 
 # Check the data type
 data = json.loads(response.text)
