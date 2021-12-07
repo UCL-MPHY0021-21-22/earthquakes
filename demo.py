@@ -23,7 +23,18 @@ response = requests.get(
 # print(response.text)
 
 # Download all the data
+# ?????
 with open('downloaded.json','w') as output_file:
     output_file.write(response.text)
 
 
+# Check the data type
+data = json.loads(response.text)
+print(type(data))
+for key in data:
+    print(key)
+
+
+# 
+with open('rewritten.json', 'w') as new_output_file:
+    json.dump(data, new_output_file)
