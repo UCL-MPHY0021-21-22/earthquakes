@@ -31,7 +31,7 @@ def get_data():
 
     # We need to interpret the text to get values that we can work with.
     # What format is the text in? How can we load the values?
-    return json.load(text)
+    return json.loads(text)
 
 def count_earthquakes(data):
     """Get the total number of earthquakes in the response."""
